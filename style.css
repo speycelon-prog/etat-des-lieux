@@ -4,8 +4,9 @@
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
 main{max-width:720px;margin:0 auto;padding:40px 20px 64px}
 header{display:flex;align-items:center;gap:10px;margin-bottom:28px;color:var(--fg);text-decoration:none}
-header svg{width:20px;height:24px}
-header span{font-weight:650;letter-spacing:.18em;font-size:14px}
+header .mark{position:relative;display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#3b82f6,#112850);color:#fff;font-weight:800;font-size:22px;padding-bottom:3px}
+header .mark i{position:absolute;right:5px;bottom:7px;width:6px;height:6px;border-radius:50%;background:#34d399}
+header span:not(.mark){font-weight:750;font-size:20px;letter-spacing:-.02em}
 h1{font-size:32px;line-height:1.15;letter-spacing:-.02em;margin:0 0 8px}
 h2{font-size:19px;margin:32px 0 8px}
 p,li{color:var(--fg)}
